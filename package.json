@@ -1,0 +1,12 @@
+{
+  "name": "portfolio_native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "print": "node script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

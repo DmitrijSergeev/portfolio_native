@@ -1,0 +1,1 @@
+console.log('This is an entry point of the portfolio!');
