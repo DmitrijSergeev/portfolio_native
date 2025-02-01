@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="wrapper">
@@ -12,17 +12,63 @@
     <label for="search"></label>
     <input type="search" name="search" id="search">
     <nav>
-        <a href="#">Каталог</a>
-        <a href="#">Корзина</a>
+        <a href="./pages/catalog.html">Каталог</a>
+        <a href="./pages/cart.html">Корзина</a>
     </nav>
+    <h1>
+        Велосипед как украшение жизни
+    </h1>
+    <p>
+        Крути педали к своему здоровью
+    </p>
+    <a href="./pages/catalog.html">Перейти в каталог</a>
 </header>
 <main>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section>
+        <h2>Велосипеды для...</h2>
+        <div>Отдыха</div>
+        <div>Спорта</div>
+        <div>Хобби</div>
+        <div>Детей</div>
+        <div>Всей семьи</div>
+    </section>
+    <section>
+        <h2> Акции</h2>
+        <img src="./img/bicycle-min.jpg" alt="bicycle" class="bicycle">
+        <h3>Городской велосипед</h3>
+        <p>Яркая внешность и дерзкий характер</p>
+        <p>31 762 р</p>
+    </section>
+    <section>
+        <h2>Каталог велосипедов и аксессуаров</h2>
+    </section>
 </main>
 <footer>
-
+    <img src="./img/logo.jpg" alt="logo">
+    <nav>
+        <h4>Меню</h4>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="./pages/catalog.html">Каталог</a></li>
+            <li><a href="./pages/cart.html">Корзина</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h4>Контакты</h4>
+        <a href="tel: +79115557070">+79115557070</a>
+        <a href="mailto: info@mycompany.com">info@mycompany.com</a>
+        <div>
+            <p>Vkontakte</p>
+            <p>Telegram</p>
+            <p>Twitter</p>
+        </div>
+    </div>
+    <div>
+        <h4>Подпишитесь, чтобы не пропустить акции</h4>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Ваш email">
+        <button>Подписаться</button>
+    </div>
 </footer>
 
 </body>
